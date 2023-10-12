@@ -2,8 +2,8 @@ export default function SpecialSection() {
     return (
         <div className="px-8 mt-20">
             <a href="" className="font-medium text-[#65AEF2] text-3xl">Special Offers</a>
-            <ul className="mt-5 flex flex-row justify-between">
-                <li className="font-medium text-3xl md:text-6xl text-black">Best offer of the month</li>
+            <ul className="mt-5 flex flex-row justify-between ">
+                <li className="font-medium text-xl md:text-6xl text-black">Best offer of the month</li>
                 <li className="font-bold text-[#65AEF2] text-lg md:text-3xl"><a href="">View all</a></li>
             </ul>
             <p className="mt-10 leading-9 font-normal text-[#1E1E1E] text-xl md:text-2xl">Experience Fantastic Benefits and Obtain Better Rates When You  Make a Direct Booking on Our Official Website</p>
