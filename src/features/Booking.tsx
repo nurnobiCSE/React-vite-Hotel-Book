@@ -43,7 +43,7 @@ export default function BookingSection() {
                     </li>
                     <li>
                         <br />
-                        <button className="btn border-none bg-blue-500 text-white rounded-lg font-bold text-2xl px-6 hover:text-blue-900">BOOK NOW</button>
+                        <button className="btn border-none bg-blue-500 text-white rounded-lg font-bold text-xl px-4 md:text-2xl md:px-6 hover:text-blue-900">BOOK NOW</button>
                     </li>
                 </ul>
             </form>
