@@ -1,8 +1,7 @@
 import MyDatePicker from "../components/datePicker";
-
 export default function BookingSection() {
     return (
-        <div className="bg-[#E9F3F6]  w-11/12 mx-auto py-16 mt-20 rounded-xl">
+        <div className="bg-[#E9F3F6] md:w-11/12 mx-auto py-16 mt-20 rounded-xl">
             <center className="font-medium text-3xl">Book a Room</center>
             <center className="font-medium text-base text-[#5E5E5E]">Discover the perfect space for you!</center>
             <br />
@@ -10,7 +9,7 @@ export default function BookingSection() {
                 <ul className="flex flex-col md:flex-row justify-center gap-16 items-center md:items-start">
                     <li>
                         <label htmlFor="" className="font-semibold text-base">Date</label> <br />
-                        <MyDatePicker />
+                        <MyDatePicker/>
                     </li>
                     <li>
                         <label htmlFor="" className="font-bold text-xs md:text-base">Person</label> <br />

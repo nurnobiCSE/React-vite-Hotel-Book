@@ -13,6 +13,7 @@ const MyDatePicker = () => {
   return (
     <div className="">
       <DatePicker
+        required
         selected={selectedDate}
         onChange={handleDateChange}
         dateFormat="dd/MM/yyyy"
